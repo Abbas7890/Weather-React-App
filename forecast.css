@@ -1,0 +1,86 @@
+.title {
+    font-size: 23px;
+    font-weight: 700;
+  }
+
+  .day{
+    font-size: 15px;
+  }
+  
+  .daily-item {
+    width: 70%;
+    background-color: white;
+    border-radius: 15px;
+    height: 40px;
+    margin: 5px auto;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    padding: 5px 20px;
+  }
+
+  .daily-item:hover{
+    background-color: turquoise;
+  }
+
+  .f{
+    color: white;
+  }
+  .h{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+  
+  .icon-small {
+    width: 60px;
+  }
+  
+  .daily-item .day {
+    cursor: inherit;
+    color: #212121;
+    flex: 1 1;
+    font-weight: 600;
+    margin-left: 15px;
+  }
+  
+  .description {
+    cursor: inherit;
+    flex: 1 1;
+    margin-right: 15px;
+    text-align: right;
+  }
+  
+  .min-max {
+    color: #757575;
+  }
+  
+  .daily-details-grid {
+    width: 70%;
+    grid-row-gap: 0;
+    grid-column-gap: 15px;
+    -webkit-column-gap: 15px;
+    column-gap: 15px;
+    display: grid;
+    flex: 1 1;
+    grid-template-columns: auto auto;
+    padding: 5px 15px;
+    row-gap: 0;
+    margin: auto;
+  }
+  
+  .daily-details-grid-item {
+    align-items: center;
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+  }
+  
+  .daily-details-grid-item label:first-child {
+    color: #757575;
+  }
+  
+  .daily-details-grid-item label:last-child {
+    color: #212121;
+  }
